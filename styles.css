@@ -9,9 +9,9 @@
   justify-content: flex-start;
   gap: 0.5em;
 }
-#menu {
+/* #menu {
   padding-left: 9em;
-}
+} */
 .buttonlogo {
   display: flex;
   /* justify-content: flex-start; */
