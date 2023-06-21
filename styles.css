@@ -16,3 +16,8 @@
   display: flex;
   /* justify-content: flex-start; */
 }
+.resources {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+}
