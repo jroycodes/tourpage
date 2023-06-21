@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@600&display=swap");
 /* CSS Reset */
 * {
@@ -29,14 +30,62 @@ h1 {
   position: relative;
   top: -3px;
 }
+/* FIRST SECTION // Intro */
+.heading1 {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 50px;
+  padding-bottom: 0.5em;
+}
+.p1 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #676a6c;
+  padding-bottom: 2em;
+}
+.buttonlogo {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.button1 {
+  width: 161px;
+  height: 58px;
+  background-color: #ff7b29;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  border: hidden;
+  border-radius: 15px;
+}
+.playlogo {
+  position: relative;
+  top: -23px;
+}
+.p2 {
+  position: relative;
+  top: 23px;
+}
+
+.imagecontent {
+  max-width: 100%;
+  object-fit: contain;
+  block-size: auto;
+}
+.cards {
+  position: relative;
+  bottom: 180px;
+  left: -30px;
+}
 
 /* #menu {
   padding-left: 9em;
-} */
-/* 
+}
 .buttonlogo {
   display: flex;
-  justify-content: flex-start; 
+  justify-content: flex-start;
 }
 .resources {
   display: flex;
