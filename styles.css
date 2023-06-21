@@ -1,23 +1,45 @@
-/* * {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@600&display=swap");
+/* CSS Reset */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
-
+}
+body {
+  margin: 1em;
+  background-color: #ffffff;
+}
+/* HEADER */
 .header {
   display: flex;
   justify-content: flex-start;
-  gap: 0.5em;
+  padding-bottom: 3em;
+  gap: 7.5em;
 }
+/* H1 font */
+h1 {
+  font-family: "Inter", sans-serif;
+}
+.head {
+  display: flex;
+}
+.stlogo {
+  margin-right: 10px;
+  position: relative;
+  top: -3px;
+}
+
 /* #menu {
   padding-left: 9em;
 } */
+/* 
 .buttonlogo {
   display: flex;
-  /* justify-content: flex-start; */
+  justify-content: flex-start; 
 }
 .resources {
   display: flex;
   flex-direction: row;
   gap: 4em;
-}
+} */
