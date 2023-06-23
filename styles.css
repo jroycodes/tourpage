@@ -116,6 +116,38 @@ h1 {
 #searchicon {
   padding-right: 5px;
 }
+/* SECOND SECTION // Our Best Tour */
+.section2 {
+  padding-top: 2.5em;
+  padding-bottom: 2em;
+}
+.sect2-h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 0.5em;
+}
+.sect2-p {
+  max-inline-size: 36;
+  font-size: 14px;
+  font-family: "Inter";
+  line-height: 20px;
+  color: #676a6c;
+  padding-bottom: 1em;
+}
+.button2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 45px;
+  background-color: #ff7b29;
+  color: #ffffff;
+  border-radius: 8px;
+  border: 10px solid #ff7b29;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
 /* .cards {
   position: relative;
   bottom: 180px;
