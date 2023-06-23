@@ -210,6 +210,42 @@ body {
 #locationicon {
   padding-right: 0.5em;
 }
+
+/* SECTION THREE */
+.h1-sect3 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.p1-sect3 {
+  padding-bottom: 2em;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+.article-div {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.sect3-h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: rgba(45, 49, 52, 1);
+}
+.sect3-p {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  line-height: 16px;
+  max-inline-size: 39ch;
+  color: #676a6c;
+}
 /* .cards {
   position: relative;
   bottom: 180px;
