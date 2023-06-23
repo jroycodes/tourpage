@@ -122,7 +122,7 @@ h1 {
   justify-content: center;
   flex-direction: column;
   gap: 1em;
-  padding-top: 2.5em;
+  padding-top: 2em;
   padding-bottom: 2em;
 }
 .sect2-h1 {
@@ -137,7 +137,7 @@ h1 {
   font-family: "Inter";
   line-height: 20px;
   color: #676a6c;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 .button2 {
   padding-top: 10px;
@@ -156,7 +156,7 @@ h1 {
 .card {
   max-width: 335px;
   max-height: 476px;
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: white;
   border: 2px solid white;
 }
