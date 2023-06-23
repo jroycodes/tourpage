@@ -121,7 +121,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 1em;
+  gap: 1.8em;
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -154,8 +154,8 @@ h1 {
 }
 /* IMAGE CARDS */
 .card {
-  max-width: 335px;
-  max-height: 476px;
+  width: 335px;
+  height: 496px;
   border-radius: 12px;
   background-color: white;
   border: 2px solid white;
@@ -175,8 +175,31 @@ h1 {
   display: flex;
   justify-content: flex-start;
   gap: 2em;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: rgba(103, 106, 108, 1);
 }
-
+.cards-p {
+  padding-top: 1em;
+  color: #ff7b29;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+.cards-h1 {
+  padding-bottom: 0.3em;
+  color: #1f1d63;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.cards-p2 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: rgba(103, 106, 108, 1);
+}
+#locationicon {
+  padding-right: 0.5em;
+}
 /* .cards {
   position: relative;
   bottom: 180px;
