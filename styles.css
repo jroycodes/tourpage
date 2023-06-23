@@ -9,7 +9,8 @@
 }
 body {
   margin: 1em;
-  background-color: #ffffff;
+  background-color: whitesmoke;
+  font-family: "Inter", sans-serif;
 }
 /* HEADER */
 .header {
@@ -31,6 +32,9 @@ h1 {
   top: -3px;
 }
 /* FIRST SECTION // Intro */
+.section1 {
+  padding-bottom: 4em;
+}
 .heading1 {
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
@@ -74,11 +78,50 @@ h1 {
   object-fit: contain;
   block-size: auto;
 }
-.cards {
+.line {
+  border: 0.1px solid #1f1a1e;
+}
+
+/* Location */
+.locations {
+  padding: 15px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 335px;
+  height: 324px;
+}
+
+.location,
+.city,
+.guest {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: hidden;
+  color: #697280;
+  line-height: 14;
+}
+.button {
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #132742;
+  color: #ffffff;
+  border-radius: 8px;
+  border: 10px solid #132742;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+#searchicon {
+  padding-right: 5px;
+}
+
+/* .cards {
   position: relative;
   bottom: 180px;
   left: -30px;
-}
+} */
 
 /* #menu {
   padding-left: 9em;

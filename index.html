@@ -43,26 +43,32 @@
             src="assets/images/Home/Shapes.svg"
             alt=""
           />
+          <div class="line"></div>
         </div>
-        <div class="location">
-          <h2>Location</h2>
-          <select name="location" id="location">
-            <option value="">Bali,Indonesia</option>
-          </select>
-          <h2>City</h2>
-          <select name="City" id="CIty">
-            <option value="">Parambanan</option>
-          </select>
-          <h2>Guest</h2>
-          <select name="Guest" id="Guest">
-            <option value="">8 Persons</option>
-          </select>
-          <button type="button" class="searchbutton">
-            <span
-              ><img
-                src="assets/icons/Home/Search Icon.svg"
-                alt="Search icon" /></span
-            >Search
+
+        <!-- Location -->
+        <div class="locations">
+          <article>
+            <h2>Location</h2>
+            <select class="location" name="location" id="location">
+              <option value="">Bali,Indonesia</option>
+            </select>
+            <h2>City</h2>
+            <select class="city" name="City" id="CIty">
+              <option value="">Parambanan</option>
+            </select>
+            <h2>Guest</h2>
+            <select class="guest" name="Guest" id="Guest">
+              <option value="">8 Persons</option>
+            </select>
+          </article>
+          <button class="button" type="button">
+            <img
+              id="searchicon"
+              src="assets/icons/Home/Search Icon.svg"
+              alt=""
+            />
+            Search
           </button>
         </div>
       </section>
