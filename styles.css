@@ -117,7 +117,11 @@ h1 {
   padding-right: 5px;
 }
 /* SECOND SECTION // Our Best Tour */
-.section2 {
+.sect-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
   padding-top: 2.5em;
   padding-bottom: 2em;
 }
@@ -147,6 +151,18 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 22px;
+}
+/* IMAGE CARDS */
+.card {
+  max-width: 335px;
+  max-height: 476px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid white;
+}
+.imagecards {
+  border: hidden;
+  max-inline-size: 100%;
 }
 /* .cards {
   position: relative;
