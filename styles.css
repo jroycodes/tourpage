@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 /* CSS Reset */
 * {
   margin: 0;
@@ -245,6 +246,90 @@ body {
   line-height: 16px;
   max-inline-size: 39ch;
   color: #676a6c;
+}
+
+/* SECTION FOUR  */
+.section4 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.sect4-h1 {
+  padding-bottom: 0.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.sect4-p1 {
+  padding-bottom: 2em;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+.section4 {
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5em;
+}
+.trending {
+  width: 335px;
+  height: 496px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 12px;
+  background-color: white;
+  border: 2px solid white;
+}
+.trend-img {
+  max-inline-size: 100%;
+  border: hidden;
+}
+.sect4-h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(45, 49, 52, 1);
+}
+.sect4-p2 {
+  padding-bottom: 1.5em;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: rgba(138, 138, 138, 1);
+}
+.cash {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgba(45, 49, 52, 1);
+  padding-bottom: 0.5em;
+}
+.booknow,
+.booknow1 {
+  max-width: 150px;
+  max-height: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #31c3e0;
+  background-color: #fff;
+  border: 2px solid #31c3e0;
+  border-radius: 8px;
+}
+.booknow1 {
+  background-color: #31c3e0;
+  color: #ffffff;
+}
+.sect4-p3 {
+  display: flex;
+  justify-content: flex-end;
 }
 /* .cards {
   position: relative;
