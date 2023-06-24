@@ -314,18 +314,29 @@ body {
 .booknow1 {
   max-width: 150px;
   max-height: 150px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   color: #31c3e0;
   background-color: #fff;
   border: 2px solid #31c3e0;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 .booknow1 {
   background-color: #31c3e0;
   color: #ffffff;
+}
+.logo-fix {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1em;
+}
+.img-tests {
+  max-inline-size: 100%;
+}
+.sect4-p3 {
+  line-height: 70px;
 }
 /* .cards {
   position: relative;
