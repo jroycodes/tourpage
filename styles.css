@@ -344,7 +344,7 @@ body {
 /* .sect5-h1{
 
 } */
-.sect5-p1 {
+/* .sect5-p1 {
   padding-top: 1em;
   padding-bottom: 2em;
 }
@@ -358,6 +358,27 @@ body {
   grid-auto-columns: 200px;
 
   background-color: blueviolet;
+} */
+
+/* SECTION SIX  */
+.sect6-h1 {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+.section6 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  justify-content: center;
+  margin: 2em;
+}
+.t-cards {
+  width: 270px;
+  height: 240px;
+  border: 2px solid #ececec;
+  border-radius: 12px;
+  padding-left: 80px;
+  padding-top: 40px;
 }
 /* .cards {
   position: relative;
