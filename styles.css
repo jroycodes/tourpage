@@ -425,10 +425,21 @@ gap: 3em;
 .sect7-h2{
   margin-top: 1.5em;
   margin-bottom: 0.2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+.sect7-p1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.12px;
+  color: #747474;
 }
 .reviews{
   width: 200px;
-  margin-left: 5em ;
+  margin-left: 4.5em ;
   margin-bottom: 3em;
 }
 .sect7-img{
