@@ -323,7 +323,7 @@ body {
 
 /* SECTION FIVE */
 /* Inter 700 styles */
-.sect5-h1, .sect6-h1, .cash, .sect4-h1, .h1-sect3, .sect2-h1, .sect7-h1 {
+.sect5-h1, .sect6-h1, .cash, .sect4-h1, .h1-sect3, .sect2-h1, .sect7-h1, .sect8-h1 {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -445,6 +445,23 @@ gap: 3em;
 .sect7-img{
   margin-top: 0.9em;
 }
+
+/* SECTION EIGHT */
+.section8{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sect8-h1{
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.sect8-p1{
+  margin-bottom: 1em;
+  text-align: center;
+  max-inline-size: 34ch;
+}
+
 /* .cards {
   position: relative;
   bottom: 180px;
