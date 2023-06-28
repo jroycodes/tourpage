@@ -488,6 +488,40 @@ gap: 3em;
 
 }
 
+/* SECTION NINE */
+.resources{
+  display: flex;
+  gap: 5em;
+}
+.sect9-h1{
+  margin-bottom: 1.5em;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #020000;
+}
+.sect9-p1{
+  margin-bottom: 1em;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  color: #676A6C;
+}
+.sect9-p2{
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: #676A6C;
+}
+.email{
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+
+}
 /* .cards {
   position: relative;
   bottom: 180px;
