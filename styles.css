@@ -134,10 +134,6 @@ body {
   padding-bottom: 2em;
 }
 .sect2-h1 {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
   padding-bottom: 0.5em;
 }
 .sect2-p {
@@ -217,10 +213,6 @@ body {
 .h1-sect3 {
   padding-top: 1em;
   padding-bottom: 1em;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
 }
 .p1-sect3 {
   padding-bottom: 2em;
@@ -253,14 +245,6 @@ body {
 .section4 {
   padding-top: 2em;
   padding-bottom: 2em;
-}
-.sect4-h1 {
-  padding-bottom: 0.5em;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  color: #2d3134;
 }
 .sect4-p1 {
   padding-bottom: 2em;
@@ -305,10 +289,6 @@ body {
   color: rgba(138, 138, 138, 1);
 }
 .cash {
-  font-family: "Inter", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 32px;
   color: rgba(45, 49, 52, 1);
   padding-bottom: 0.5em;
 }
@@ -342,11 +322,13 @@ body {
 }
 
 /* SECTION FIVE */
-.sect5-h1 {
+/* Inter 700 styles */
+.sect5-h1, .sect6-h1, .cash, .sect4-h1, .h1-sect3, .sect2-h1 {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
+  color: #2D3134;
 }
 .sect5-p1 {
   padding-top: 1em;
@@ -384,37 +366,43 @@ body {
 }
 
 /* SECTION SIX  */
-/* .section6 {
-  display: grid;
+.t-cards{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1em;
+padding-bottom: 3em;
+}
+.t-articles{
+width: 270px;
+height: 240px;
+border: 3px solid #ECECEC;
+border-radius: 12px;
+text-align: center;
+}
 
-  gap: 1.5em;
-  margin: 1.5em;
-} */
-/* .sect6-h1 {
-  margin-top: 2em;
+.t-cardss{
+  padding-top: 2em;
 }
-.t-cards {
-  width: 270px;
-  height: 240px;
-  border: 2px solid #ececec;
-  border-radius: 12px;
-  padding-left: 25%;
-  padding-top: 2.5em;
+.t-card{
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
-.sect6-h2 {
-  font-family: "Inter", sans-serif;
+.sect6-h2{
+  padding-bottom: 0.7em;
   font-size: 26px;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   line-height: 26px;
+
 }
-.sect6-p1 {
-  font-family: "Inter", sans-serif;
+.sect6-p1{
+  color: #676A6C;
   font-size: 14px;
+  font-family: "Inter", sans-serif;
   line-height: 14px;
-  color: #676a6c;
-  padding-top: 1em;
-  padding-right: 2em;
-} */
+}
 
 /* .cards {
   position: relative;
@@ -433,4 +421,4 @@ body {
   display: flex;
   flex-direction: row;
   gap: 4em;
-} */
+} 
