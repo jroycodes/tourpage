@@ -323,7 +323,7 @@ body {
 
 /* SECTION FIVE */
 /* Inter 700 styles */
-.sect5-h1, .sect6-h1, .cash, .sect4-h1, .h1-sect3, .sect2-h1 {
+.sect5-h1, .sect6-h1, .cash, .sect4-h1, .h1-sect3, .sect2-h1, .sect7-h1 {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -404,6 +404,36 @@ text-align: center;
   line-height: 14px;
 }
 
+/* SECTION SEVEN */
+.section7{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 3em;
+}
+.sect7-h1{
+  margin-bottom: 0.5em;
+}
+.sect7-p{
+  min-inline-size: 22ch;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #676A6C;
+}
+.sect7-h2{
+  margin-top: 1.5em;
+  margin-bottom: 0.2em;
+}
+.reviews{
+  width: 200px;
+  margin-left: 5em ;
+  margin-bottom: 3em;
+}
+.sect7-img{
+  margin-top: 0.9em;
+}
 /* .cards {
   position: relative;
   bottom: 180px;
