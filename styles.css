@@ -521,6 +521,38 @@ gap: 3em;
   font-size: 16px;
   line-height: 16px;
 }
+.foot {
+  display: flex;
+  flex-direction:row;
+  gap: 1em;
+  margin-bottom: 2em ;
+}
+.h1-foot{
+  text-align: center;
+  padding-top: 3px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  color:#212832 ;
+}
+.img-footer {
+  max-inline-size: 100%;
+}
+.navigation{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.socials{
+  border: 1px solid #BCBCBC;
+  border-radius: 50px;
+}
 /* .cards {
   position: relative;
   bottom: 180px;
