@@ -10,25 +10,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+/* body {
   margin: 1em;
   background-color: whitesmoke;
   font-family: "Inter", sans-serif;
-}
+} */
 /* HEADER */
-.header {
+.try {
   display: flex;
-  justify-content: flex-start;
-  padding-bottom: 3em;
-  gap: 7.5em;
+  flex-direction: row;
+  gap: 170px;
+  line-height: 50px;
+  min-width: 349px;
 }
 .head {
   display: flex;
+  gap: 1em;
 }
-.stlogo {
-  margin-right: 10px;
-  position: relative;
-  top: -3px;
+.logotext{
+  line-height: 50px;
 }
 /* FIRST SECTION // Intro */
 .section1 {
