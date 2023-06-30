@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+.background-img {
+  background-image: url(assets/images/Home/background\ image.jpg);
+  width: 100%;
+  height: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.head {
+  display: flex;
+  gap: 1em;
+}
+.logotext {
+  line-height: 50px;
+}
+.try {
+  display: flex;
+  flex-direction: row;
+  gap: 170px;
+  line-height: 50px;
+  min-width: 349px;
+}
