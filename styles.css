@@ -10,25 +10,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* body {
+body {
   margin: 1em;
   background-color: whitesmoke;
   font-family: "Inter", sans-serif;
-} */
+}
 /* HEADER */
 .try {
   display: flex;
   flex-direction: row;
-  gap: 170px;
-  line-height: 50px;
-  min-width: 349px;
+  gap: 130px;
+  line-height: 40px;
+  min-width: 355px;
 }
 .head {
   display: flex;
   gap: 1em;
 }
 .logotext{
-  line-height: 50px;
+  line-height: 40px;
 }
 /* FIRST SECTION // Intro */
 .section1 {

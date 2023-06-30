@@ -10,6 +10,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  white-space: inherit;
 }
 .head {
   display: flex;
@@ -23,5 +24,5 @@
   flex-direction: row;
   gap: 170px;
   line-height: 50px;
-  min-width: 349px;
+  min-width: 355px;
 }
