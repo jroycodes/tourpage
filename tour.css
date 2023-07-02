@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+.backgroun {
+  background-image: url(assets/images/Home/Shapes.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  white-space: inherit;
+
+  padding-bottom: 8em;
+}
+body {
+  background-color: #fff;
+}
+.locations {
+  margin-bottom: 1em;
+}
+article {
+  margin-bottom: 1em;
+}
+.t-loc {
+  display: flex;
+  flex-direction: column;
+  background-color: #ececec;
+  border-radius: 10px;
+}
+.t-loc img {
+  object-fit: cover;
+  max-inline-size: 100%;
+  max-width: 345px;
+}
+.secondary {
+  display: flex;
+  margin-bottom: 1em;
+}
+.dest-h2 {
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
+  padding-top: 0.5em;
+}
+.t-price p {
+  margin: auto;
+}
+.tour-price,
+.tour-price1,
+.tour-price3 {
+  margin-left: 10em;
+}
+.usd {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
+}
+.tour-price2 {
+  margin-left: 12em;
+}
+.tour-price4 {
+  margin-left: 8.1em;
+}
+.t-price1 {
+  padding-top: 5px;
+  padding-bottom: 1px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: right;
+}
+article:nth-child(6) {
+  margin-bottom: 3em;
+}
