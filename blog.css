@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+.backgroun {
+  background-image: url(assets/images/Home/Shapes.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  white-space: inherit;
+
+  padding-bottom: 8em;
+}
+.head {
+  padding-bottom: 3em;
+}
+.welcome {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  max-inline-size: 16ch;
+  text-align: center;
+}
+.blog-articles {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
