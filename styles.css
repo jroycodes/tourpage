@@ -19,7 +19,7 @@ body {
 .try {
   display: flex;
   flex-direction: row;
-  gap: 130px;
+  gap: 8em;
   line-height: 40px;
   min-width: 355px;
 }
@@ -30,6 +30,13 @@ body {
 .logotext{
   line-height: 40px;
 }
+.heads{
+  /* background-color: red; */
+  margin: 0 auto;
+  border: hidden;
+  background-color: whitesmoke;
+}
+
 /* FIRST SECTION // Intro */
 .section1 {
   padding-bottom: 4em;
