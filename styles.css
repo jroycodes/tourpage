@@ -30,11 +30,35 @@ body {
 .logotext{
   line-height: 40px;
 }
+.header{
+  background-color: yellow;
+}
+/* DESKTOP */
+.nav-bar{
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding-left: 6em;
+}
+.contact-us{
+color: #FFF;
+text-align: center;
+font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.14px;
+background-color: black;
+margin-left: 6em;
+}
 .heads{
   /* background-color: red; */
   margin: 0 auto;
   border: hidden;
   background-color: whitesmoke;
+  visibility: hidden;
 }
 
 /* FIRST SECTION // Intro */
@@ -566,6 +590,13 @@ a{
   border: 1px solid #BCBCBC;
   border-radius: 50px;
 }
+
+
+
+@media screen and (min-width: 700px){
+  .heads{
+    
+    }
 /* .cards {
   position: relative;
   bottom: 180px;
