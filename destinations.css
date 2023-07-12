@@ -77,8 +77,8 @@
   line-height: 32px;
 }
 .button {
-  width: 191px;
-  height: 66px;
+  max-width: 191px;
+  max-height: 66px;
   background-color: #ff7b29;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
