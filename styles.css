@@ -23,6 +23,7 @@ body {
   gap: 8em;
   line-height: 40px;
   min-width: 355px;
+  margin-top: 3em; 
 }
 .head {
   display: flex;
@@ -41,7 +42,7 @@ body {
   padding-left: 6em;
   display: none;
 }
-@media  screen and (min-width: 500px) {
+@media  screen and (min-width: 576px) {
   .nav-bar{
     display: flex;
   }
@@ -59,7 +60,7 @@ background-color: black;
 margin-left: 6em;
 display: none;
 }
-@media  screen and (min-width: 500px) {
+@media  screen and (min-width: 576px) {
   .contact-us{
     display: flex;
   }
@@ -70,7 +71,7 @@ display: none;
   background-color: whitesmoke;
   visibility: visible;
 }
-@media  screen and (min-width: 500px) {
+@media  screen and (min-width: 576px) {
   .heads{
     visibility: hidden;
   }
@@ -636,11 +637,11 @@ a{
   border: 1px solid #BCBCBC;
   border-radius: 50px;
 }
-/* @media screen and (min-width: 756) {
-  html {
-    font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+@media screen and (max-width: 576) {
+  body {
+    font-size: 30px;
   }
-} */
+}
 /* .cards {
   position: relative;
   bottom: 180px;
