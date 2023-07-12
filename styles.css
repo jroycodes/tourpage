@@ -14,6 +14,7 @@ body {
   margin: 1em;
   background-color: whitesmoke;
   font-family: "Inter", sans-serif;
+  
 }
 /* HEADER */
 .try {
@@ -29,17 +30,21 @@ body {
 }
 .logotext{
   line-height: 40px;
-}
-.header{
-  background-color: yellow;
+  background-color: red;
+  white-space: nowrap;
 }
 /* DESKTOP */
 .nav-bar{
-  background-color: orangered;
   display: flex;
   justify-content: center;
   gap: 2em;
   padding-left: 6em;
+  display: none;
+}
+@media  screen and (min-width: 500px) {
+  .nav-bar{
+    display: flex;
+  }
 }
 .contact-us{
 color: #FFF;
@@ -52,13 +57,23 @@ line-height: 16px;
 letter-spacing: -0.14px;
 background-color: black;
 margin-left: 6em;
+display: none;
+}
+@media  screen and (min-width: 500px) {
+  .contact-us{
+    display: flex;
+  }
 }
 .heads{
-  /* background-color: red; */
   margin: 0 auto;
   border: hidden;
   background-color: whitesmoke;
-  visibility: hidden;
+  visibility: visible;
+}
+@media  screen and (min-width: 500px) {
+  .heads{
+    visibility: hidden;
+  }
 }
 
 /* FIRST SECTION // Intro */
@@ -85,8 +100,10 @@ margin-left: 6em;
   position: relative;
 }
 .button1 {
-  width: 141px;
-  height: 58px;
+  /* padding: 1rem 1rem;
+  margin: 0; */
+  max-width: 141px;
+  max-height: 58px;
   background-color: #ff7b29;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -121,8 +138,8 @@ margin-left: 6em;
   background-color: white;
   border: 2px solid white;
   border-radius: 10px;
-  width: 335px;
-  height: 324px;
+  max-width: 335px;
+  /* max-height: 324px; */
 }
 .location-h2 {
   font-family: "Inter", sans-serif;
@@ -595,8 +612,9 @@ a{
 
 @media screen and (min-width: 700px){
   .heads{
-    
+    background-color: red;
     }
+  }
 /* .cards {
   position: relative;
   bottom: 180px;
