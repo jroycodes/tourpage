@@ -208,8 +208,8 @@ display: none;
 }
 /* IMAGE CARDS */
 .card {
-  width: 335px;
-  height: 496px;
+  max-width: 335px;
+  max-height: 496px;
   border-radius: 12px;
   background-color: white;
   border: 2px solid white;
@@ -308,8 +308,8 @@ display: none;
   gap: 1.5em;
 }
 .trending {
-  width: 335px;
-  height: 496px;
+  max-width: 335px;
+  max-height: 496px;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
