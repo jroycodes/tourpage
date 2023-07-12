@@ -77,6 +77,27 @@ display: none;
 }
 
 /* FIRST SECTION // Intro */
+.section{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1400px;
+  justify-content: center;
+  object-fit: cover;
+  gap: 4em;
+  flex-direction: row;
+  margin-top: 3em; 
+}
+.countdown{
+  max-width: 200px;
+  max-height: 270px;
+  display: none;
+}
+@media screen and (min-width: 768px){
+  .countdown{
+    display:contents;
+    }
+  }
 .section1 {
   padding-bottom: 4em;
 }
@@ -86,6 +107,7 @@ display: none;
   font-size: 40px;
   line-height: 50px;
   padding-bottom: 0.5em;
+  max-inline-size: 12ch;
 }
 .p1 {
   font-family: "Inter", sans-serif;
@@ -93,6 +115,7 @@ display: none;
   line-height: 20px;
   color: #676a6c;
   padding-bottom: 2em;
+  max-inline-size: 34ch;
 }
 .buttonlogo {
   display: flex;
@@ -175,8 +198,12 @@ display: none;
 /* SECOND SECTION // Our Best Tour */
 .sect-cards {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1400px;
   justify-content: center;
-  flex-direction: column;
+  object-fit: cover;
+  flex-direction: row;
   gap: 1.8em;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -609,14 +636,11 @@ a{
   border: 1px solid #BCBCBC;
   border-radius: 50px;
 }
-
-
-
-@media screen and (min-width: 700px){
-  .heads{
-    background-color: red;
-    }
+/* @media screen and (min-width: 756) {
+  html {
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
   }
+} */
 /* .cards {
   position: relative;
   bottom: 180px;
