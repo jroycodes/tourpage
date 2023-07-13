@@ -163,18 +163,18 @@ white-space: wrap;
   background-color: white;
   border: 2px solid white;
   border-radius: 10px;
-  max-width: 335px;
+  min-width: 335px;
   max-height: 324px;
 }
-@media screen and (min-width: 576px){
+@media screen and (min-width: 800px){
   .locations{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    max-width: fit-content;  
-}
+    gap: 3em;
+    min-width: 335px;
+    margin-left: 15em ;
+    margin-right: 15em ;
+  }
 }
 .location-h2 {
   font-family: "Inter", sans-serif;
