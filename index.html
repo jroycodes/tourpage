@@ -9,6 +9,40 @@
   <header></header>
   <body>
     <main>
+      <div class="try">
+        <article class="head">
+          <img
+            class="stlogo"
+            src="assets/icons/Home/Circle Logo.svg"
+            alt="Safe Tours logo"
+            class="stlogo"
+          />
+          <h1 class="logotext">
+            Safe Tour <span style="color: #ff7b29">.</span>
+          </h1>
+          <!-- Desktop -->
+          <div class="nav-bar">
+            <nav>
+              <a href="index.html">Home</a>
+            </nav>
+            <nav>
+              <a href="about.html">About</a>
+            </nav>
+            <nav>
+              <a href="destinations.html">Destinations</a>
+            </nav>
+            <nav>
+              <a href="tours.html">Tours</a>
+            </nav>
+            <nav>
+              <a href="blog.html">Blog</a>
+            </nav>
+          </div>
+        </article>
+        <button class="heads">
+          <img id="logo-img" src="assets/icons/Home/Menu.svg" alt="menu logo" />
+        </button>
+      </div>
       <!-- FIRST SECTION // Intro -->
       <div class="section">
         <article class="art">
@@ -39,39 +73,8 @@
           <img src="assets/images/Home/Countdown.svg" alt="" />
         </article>
       </div>
-<!-- Location -->
-<div class="locations">
-  <div>
-    <h2 class="location-h2">Location</h2>
-    <select class="location" name="location" id="location">
-      <option value="">Bali,Indonesia</option>
-    </select>
-  </div>
-  <div>
-    <h2 class="location-h2">City</h2>
-    <select class="city" name="City" id="CIty">
-      <option value="">Parambanan</option>
-    </select>
-  </div>
-  <div>
-    <h2 class="location-h2">Guest</h2>
-    <select class="guest" name="Guest" id="Guest">
-      <option value="">8 Persons</option>
-    </select>
-  </div>
-  <div>
-    <button class="button" type="button">
-      <img
-        id="searchicon"
-        src="assets/icons/Home/Search Icon.svg"
-        alt=""
-      />
-      Search
-    </button>
-  </div>
-</div>
       <!-- Location -->
-      <!-- <div class="locations">
+      <div class="locations">
         <div>
           <h2 class="location-h2">Location</h2>
           <select class="location" name="location" id="location">
@@ -100,9 +103,8 @@
             Search
           </button>
         </div>
-      </div> -->
-      <br />
-
+      </div>
+      <br>
       <!-- SECOND SECTION // Our Best Tour -->
       <section class="sect-cards">
         <div class="section2">
@@ -275,7 +277,7 @@
           <!-- Image that will on load with change in screen size -->
           <picture>
             <source
-              media="(min-width:575px)"
+              media="(min-width:800px)"
               srcset="assets\images\Home\image 874.png"
               width="436"
               height="518"
